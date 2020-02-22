@@ -1,0 +1,178 @@
+/* HomePage css */
+
+body{
+    background-color: skyblue;
+}
+.banner{
+    background-image: url("./Images/banner.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 5vw 0vw 5vw 0vw;
+}
+.check{
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 3;
+    
+}
+
+.check2{
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.5);
+    border-left: none;
+}
+.netwrkHedng{
+    font-size: 5vmax;
+    color: white;
+    font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+}
+.netwrkP{
+    font-size: 3vmax;
+    color: white;
+}
+
+
+/* panel1 css */
+.netwrkCnsultng{
+    background: rgba(255, 255, 255, 0.5);
+    /* opacity: 0.5; */
+    text-align: center;
+    /* padding: 5vw 5vw 5vw 5vw; */
+    margin-top: 5vw;
+}
+.panel1Hed{
+    font-size: 3vmax;
+    color: black;
+    font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+}
+.panel1Pera{
+    font-size: 2vmax;
+    justify-content: center;
+}
+
+
+/* Panel2 CSS */
+
+.netwrkDesgn{
+    background: rgba(145, 166, 173, 0.5);
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.panel2Hedng{
+    font-size: 3vmax;
+    color: black;
+    font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+    margin-top: 5vw;
+}
+
+.panel2Pera{
+    font-size: 1.5vmax;
+    justify-content: center;
+}
+.netwrkDesgnImg{
+    background-image: url("./Images/pnl2BgImg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 70vmax;
+}
+
+
+/* panel3 CSS */
+
+.netwrkCablingImg{
+    background-image: url("./Images/pnl3BgImg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 5vmax;
+    width: 5vw;
+    margin: 2vw 2vw 5vw 40vw;
+}
+.imgDev{
+    background-color : rgba(145, 166, 173, 0.5);
+    height: 35vmax;
+}
+
+.netwrkCable{
+    text-align: center;  
+    background-color: rgba(145, 166, 173, 0.5);  
+    margin-top: 5vw;
+}
+
+/* panel4 CSS */
+
+.netwrkSupply{
+    text-align: center;  
+    background-color: rgba(145, 166, 173, 0.5);  
+    margin-top: 5vw;
+}
+
+.netwrkSupplyImg{
+    background-image: url("./Images/pnl4BgImg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 40vmax;
+    width: 55vmax;
+   float: right;
+   margin: 0vw 2vw 5vw 2vw;
+}
+
+.imgDev2{
+    background-color : rgba(145, 166, 173, 0.5);
+    height: 50vmax;
+}
+
+/* panel5 CSS */
+
+
+.devImg1{
+    position: absolute;
+    width: 98%;
+    height: 45vmax;
+    background-color: blue;
+}
+
+.devImg2{
+    position: relative;
+    width: 100%;
+    height: 50vmax;
+    /* background-color: black; */
+    margin-left: 5vw;
+    background-image: url("./Images/pnl5BgImg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* height: 40vmax;
+    width: 55vmax; */
+}
+
+/* panel6 CSS */
+
+.devMangeServes{
+    position: absolute;
+    width: 98%;
+    height: 45vmax;
+    background-color: blue;
+}
+
+.devMangeServes2{
+    position: relative;
+    width: 106%;
+    height: 50vmax;
+    /* background-color: black; */
+    /* margin-left: 5vw; */
+    background-image: url("./Images/pnl5BgImg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
